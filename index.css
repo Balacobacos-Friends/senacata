@@ -1,0 +1,49 @@
+body{
+    margin: 0px;
+}
+
+h1{
+ margin: 0px;
+}
+
+.a{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.a h2{
+    grid: 1/-1;
+    text-align: end;
+    width: 95%;
+    color: rgb(14, 5, 133);
+}
+
+
+.icones {
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 20px;
+    padding: 10px;
+    width: 90%;
+}
+
+.icones ul {
+    display: flex;
+    justify-content: center;
+}
+
+.icones img {
+    width: 200px;
+    padding-bottom: 10px;
+    height: 200px;
+    align-items: center;
+}
+
+.rodape {
+    background-color: orange;
+    padding: 50px;
+    text-align: end;
+  }
